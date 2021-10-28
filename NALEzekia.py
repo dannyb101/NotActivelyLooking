@@ -13,7 +13,7 @@ emailElem.send_keys('dan@ezekia.com')
 
 #enter password
 passwordElem = browser.find_element_by_css_selector('.o-form-login__inputs > div:nth-child(2) > input:nth-child(3)')
-passwordElem.send_keys('Namchi51')
+##### Password removed  ####
 passwordElem.submit()
 
 time.sleep(10)

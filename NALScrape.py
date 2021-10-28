@@ -55,7 +55,7 @@ emailElem.send_keys('dan@notactivelylooking.com')
 
 #enter password
 passwordElem = browser.find_element_by_id('password')
-passwordElem.send_keys('Namchi51')
+####Password removed #####
 passwordElem.submit()
 
 #Wait for authentication
